@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\rrServiceNetV2.Common\rrServiceNetV2.Common.csproj" />
+    <ProjectReference Include="..\rrServiceNetV2.Crypter\rrServiceNetV2.Crypter.csproj" />
+    <ProjectReference Include="..\rrServiceNetV2.Gateway.Handler\rrServiceNetV2.Gateway.Handler.csproj" />
+    <ProjectReference Include="..\rrServiceNetV2.Gateway.Server\rrServiceNetV2.Gateway.Server.csproj" />
+    <ProjectReference Include="..\rrServiceNetV2.Mapper\rrServiceNetV2.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>
